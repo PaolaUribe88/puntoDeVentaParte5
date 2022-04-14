@@ -1,12 +1,10 @@
 package puntoDeVentaParte5;
 
-	import java.io.File;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
-
-
 	/**
 	 * 
 	 * @author Jessie Uribe
@@ -70,7 +68,7 @@ import java.util.Scanner;
 			Producto producto = new Producto(codigo,nombre,precio,categoria,descripcion);
 			productos.add(producto);
 			
-			System.out.printf("Se a�adio el producto '%s' de la categoria '%s' con un precio de '%d' . Su descripcion es '%s' %n.",
+			System.out.printf("Se añadio el producto '%s' de la categoria '%s' con un precio de '%d' . Su descripcion es '%s' %n.",
 					producto.getCodigo(),
 					producto.getNombre(),
 					producto.getPrecio(),
@@ -98,7 +96,7 @@ import java.util.Scanner;
 		        contenidoArchivo += "ch1, Chicle Menta, 200, Golosinas, Menta Fresca \n";
 		        contenidoArchivo += "ch2, Chicle Fruta, 200, Golosinas, Frutos Rojos \n";
 		        contenidoArchivo += "ch3, Cafe Nescafe 280 g, 2200, Cafeteria, Dolca menos fuerte \n";
-		        // abreviación de esto:
+		        // abreviaciÃ³n de esto:
 		       //contenidoArchivo = contenidoArchivo + "\n";
 		       contenidoArchivo += "ch4, Azucar, 1300, Cafeteria, Rubia\n";
 		       return contenidoArchivo;
